@@ -31,10 +31,7 @@ if ((process.env.NODE_ENV = "production")) {
   });
 }
 // ---------------Deployment-----------------//
-
-
-
-
+console.log("consoling forn testing");
 
 const server = app.listen(process.env.PORT, (req, res) => {
   console.log(`Server is running on port no ${process.env.PORT}`);
